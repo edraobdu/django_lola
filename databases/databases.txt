@@ -1,0 +1,57 @@
+{
+	'default': {
+		'ENGINE': 'django.db.backends.mysql',
+		'NAME': 'bezurnet_bit2_multicurrency',
+		'PORT': '',
+		'HOST': 'localhost',
+		'USER': 'bezurnet_bit2',
+		'PASSWORD': 'COlombia-1864',
+		'OPTIONS': {
+			'init_command': 'SET foreign_key_checks = 0;',
+		},
+	},
+	'Demo': {
+		'ENGINE': 'django.db.backends.mysql',
+		'NAME': 'bezurnet_demo_multicurrency',
+		'HOST': 'localhost',
+		'USER': 'bezurnet_bit2',
+		'PASSWORD': 'COlombia-1864',
+		'PORT': '',
+		'OPTIONS': {
+			'init_command': 'SET foreign_key_checks = 0;',
+		},
+	},
+	'Prost_SAS': {
+		'ENGINE': 'django.db.backends.mysql',
+		'NAME': 'bezurnet_prost_sas_multicurrency',
+		'HOST': 'localhost',
+		'USER': 'bezurnet_bit2',
+		'PASSWORD': 'COlombia-1864',
+		'PORT': '',
+		'OPTIONS': {
+			'init_command': 'SET foreign_key_checks = 0;',
+		},
+	},
+	'Bezur': {
+		'ENGINE': 'django.db.backends.mysql',
+		'NAME': 'bezurnet_bezur_multicurrency',
+		'HOST': 'localhost',
+		'USER': 'bezurnet_bit2',
+		'PASSWORD': 'COlombia-1864',
+		'PORT': '',
+		'OPTIONS': {
+			'init_command': 'SET foreign_key_checks = 0;',
+		},
+	},
+	'Maquillate_Colombia': {
+		'ENGINE': 'django.db.backends.mysql',
+		'NAME': 'bezurnet_maquillate_colombia_multicurrency',
+		'PORT': '',
+		'HOST': 'localhost',
+		'USER': 'bezurnet_bit2',
+		'PASSWORD': 'COlombia-1864',
+		'OPTIONS': {
+			'init_command': 'SET foreign_key_checks = 0;',
+		},
+	},
+}
